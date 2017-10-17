@@ -1,5 +1,5 @@
 //
-//  TableViewViewModel.swift
+//  ColorData.swift
 //  RxSwfit-MVVM-UITableView
 //
 //  Created by JungMoon-Mac on 2017. 10. 17..
@@ -8,6 +8,7 @@
 
 import UIKit
 
-class TableViewViewModel: NSObject {
-
+struct ColorData: Codable {
+    var name:String?
+    var hexString:String?
 }
